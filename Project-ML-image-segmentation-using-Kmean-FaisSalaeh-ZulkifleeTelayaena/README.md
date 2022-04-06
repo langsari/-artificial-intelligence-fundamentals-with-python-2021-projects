@@ -8,7 +8,7 @@ Image segmentation is the classification of an image into different groups. Many
 ### Working of Image Segmentation :
 Image Segmentation involves converting an image into a collection of regions of pixels that are represented by a mask or a labeled image. By dividing an image into segments, you can process only the important segments of the image instead of processing the entire image.
 
-## Problem Statement:
+## Problem Statement :
 The goal of Image segmentation is to change the representation of an image into something that is more meaningful and easier to analyze.
 
 ## Requirements :
