@@ -26,6 +26,8 @@ K-Means clustering algorithm is an unsupervised algorithm and it is used to segm
 
 The algorithm is used when you have unlabeled data(i.e. data without defined categories or groups). The goal is to find certain groups based on some kind of similarity in the data with the number of groups represented by K.
 
+![image](https://user-images.githubusercontent.com/95903407/162170882-febd6dd1-3775-4e98-b69f-3a34046d6b0d.png)
+
 The objective of K-Means clustering is to minimize the sum of squared distances between all points and the cluster center.
 
 ![image](https://user-images.githubusercontent.com/95903407/162153620-eefe6532-7b33-489c-9c5a-02c04aa96261.png)
@@ -43,7 +45,7 @@ The objective of K-Means clustering is to minimize the sum of squared distances 
   
 5. Reassign each data point to the new closest centroid. If any reassignment . took place, go to step 4, otherwise, the model is ready.
 
-#### => Steps to choose the optimal number of clusters K :- (Elbow Method)
+#### => Steps to choose the optimal number of clusters K (Elbow Method) :- 
 
 1. Compute K-Means clustering for different values of K by varying K from 1 to 10 clusters.
   
