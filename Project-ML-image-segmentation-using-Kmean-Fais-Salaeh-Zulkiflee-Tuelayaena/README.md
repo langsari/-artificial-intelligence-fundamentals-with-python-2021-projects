@@ -63,3 +63,4 @@ The objective of K-Means clustering is to minimize the sum of squared distances 
 4. The location of a bend (knee) in the plot is generally considered as an indicator of the appropriate number of clusters.    
 
 ## Conclusion :
+Due to advancements in Image processing, Machine learning, AI and related technologies, there will be millions of robots in the world in a few decades' time, transforming the way we live our daily lives. These advancements will involve spoken commands, predicting the information requirements of governments, translating languages, recognizing and tracking people and things, diagnosing medical conditions, performing surgery, reprogramming defects in human DNA, driverless cars and many more applications, the count of real-life applications is endless.
