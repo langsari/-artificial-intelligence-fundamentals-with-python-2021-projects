@@ -1,8 +1,10 @@
 # IMAGE SEGMENTATION USING K-MEAN
 ## Introduction :
-Image segmentation is an important step in image processing, and it seems everywhere if we want to analyze what’s inside the image. For example, if we seek to find if there is a chair or person inside an indoor image, we may need image segmentation to separate objects and analyze each object individually to check what it is. Image segmentation usually serves as the pre-processing before pattern recognition, feature extraction, and compression of the image.
+Image Segmentation : In computer vision, image segmentation is the process of partitioning an image into multiple segments. The goal of segmenting an image is to change the representation of an image into something that is more meaningful and easier to analyze. It is usually used for locating objects and creating boundaries. For example, if we seek to find if there is a thing or person inside an indoor image, we may need image segmentation to separate objects and analyze each object individually to check what it is.
 
-Image segmentation is the classification of an image into different groups. Many kinds of research have been done in the area of image segmentation using clustering. There are different methods and one of the most popular methods is K-Means clustering algorithm.
+It is not a great idea to process an entire image because many parts in an image may not contain any useful information. Therefore, by segmenting the image, we can make use of only the important segments for processing. 
+
+Many kinds of research have been done in the area of image segmentation using clustering. There are different methods and one of the most popular methods is K-Means clustering algorithm.
 
 ![image](https://user-images.githubusercontent.com/95903407/162152939-a4ce8f2f-ccbc-432c-9962-8272d91c6ee5.png)
 
@@ -10,7 +12,7 @@ Image segmentation is the classification of an image into different groups. Many
 Image Segmentation involves converting an image into a collection of regions of pixels that are represented by a mask or a labeled image. By dividing an image into segments, you can process only the important segments of the image instead of processing the entire image.
 
 ## Problem Statement :
-The goal of Image segmentation is to change the representation of an image into something that is more meaningful and easier to analyze.
+Many parts in some image may not contain any useful information that we wish.  Therefore, the goal of Image segmentation is to change the representation of an image into something that is more meaningful and easier to analyze.
 
 ## Requirements :
 - Jupyter Notebook
