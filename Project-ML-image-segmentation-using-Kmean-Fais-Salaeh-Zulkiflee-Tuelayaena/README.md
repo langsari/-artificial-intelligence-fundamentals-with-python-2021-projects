@@ -8,8 +8,13 @@ Many kinds of research have been done in the area of image segmentation using cl
 
 ![image](https://user-images.githubusercontent.com/95903407/162152939-a4ce8f2f-ccbc-432c-9962-8272d91c6ee5.png)
 
-### Working of Image Segmentation :
-Image Segmentation involves converting an image into a collection of regions of pixels that are represented by a mask or a labeled image. By dividing an image into segments, you can process only the important segments of the image instead of processing the entire image.
+### - Working of Image Segmentation :
+Image Segmentation involves converting an image into a collection of regions of pixels that are represented by a mask or a labeled image. In image segmentation, pixels which have similar attributes are grouped together. you can process only the important segments of the image instead of processing the entire image.
+
+### - Types of Image Segmentation :
+Our project is Semantic Segmentation, it is the process of segmenting the image pixels into their respective classes. For example, in the figure below, the cat is associated with yellow color; hence all the pixels related to the cat are colored yellow. Multiple objects of the same class are considered as a single entity and hence represented with the same color.
+
+![image](https://user-images.githubusercontent.com/95903407/162181156-72ae5d5e-b42d-4396-9c90-f9889653cf91.png)
 
 ## Problem Statement :
 Many parts in some image may not contain any useful information that we wish.  Therefore, the goal of Image segmentation is to change the representation of an image into something that is more meaningful and easier to analyze.
