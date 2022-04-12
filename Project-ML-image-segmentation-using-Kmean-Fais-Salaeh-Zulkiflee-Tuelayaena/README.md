@@ -1,4 +1,4 @@
-# IMAGE SEGMENTATION USING K-MEANS
+# IMAGE SEGMENTATION USING K-MEAN
 ## Introduction :
 Image Segmentation : In computer vision, image segmentation is the process of partitioning an image into multiple segments. The goal of segmenting an image is to change the representation of an image into something that is more meaningful and easier to analyze. It is usually used for locating objects and creating boundaries. For example, if we seek to find if there is a thing or person inside an indoor image, we may need image segmentation to separate objects and analyze each object individually to check what it is.
 
