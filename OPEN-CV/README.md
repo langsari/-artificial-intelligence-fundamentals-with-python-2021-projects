@@ -30,3 +30,22 @@ Haar  Cascade
 # Algorithm :
 	Steps in Face detection :-
 
+Importing the libraries
+
+#Importing the picture
+import cv2 as cv
+
+Building the model
+#Read the image
+ img = cv.imread('smile.jpg')
+ 
+#Haar cascade model
+Face_model = cv.CascadeClassifier(face-detect-model)
+ 
+#Change color BGR to GRAY
+gray_scale = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+ 
+# Draw a square
+cv.rectangle(img, (200,200), (400,400), (255,255,0), 2) 	#RGB to BGR
+
+
