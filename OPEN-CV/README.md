@@ -17,3 +17,16 @@
         
  # Design Solution : 
  (https://user-images.githubusercontent.com/96815665/162873171-6245372c-82fd-4b03-b802-fb20b4c70ee8.png)
+ 
+  # Problem Statement :
+           	Many parts of a certain image may not contain the useful information we need, so the goal of face detection is to display an image that can be identified as human faces and can be analyzed more easily. 
+
+# Requirements :
+OpenCV
+Importing the Libraries :
+CV2
+Haar  Cascade
+ 
+# Algorithm :
+	Steps in Face detection :-
+
