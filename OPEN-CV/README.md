@@ -45,7 +45,17 @@ Face_model = cv.CascadeClassifier(face-detect-model)
 #Change color BGR to GRAY
 gray_scale = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
  
-# Draw a square
+#Draw a square
 cv.rectangle(img, (200,200), (400,400), (255,255,0), 2) 	#RGB to BGR
+
+https://user-images.githubusercontent.com/96815665/162874808-890ad474-6b1e-4cd0-ae69-3f0a464b192f.png
+
+for (x,y,w,h) in faces:
+#Draw a square like in the beginning.
+cv.rectangle(img, (x,w), (y,h),(x+w,y+h), (255,255,0), 2) 	#RGB to BGR
+
+(https://user-images.githubusercontent.com/96815665/162872744-a608aed3-a1cd-4889-94fe-b800e40646a6.png)
+
+
 
 
