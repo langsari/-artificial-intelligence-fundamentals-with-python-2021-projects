@@ -4,5 +4,5 @@
            	Face-detection algorithms focus on the detection of frontal human faces. It is analogous to image detection in which the image of a person is matched bit by bit. Image matches with the image stores in the database. 
 # Before     
 <p align="center">
-  ![277681917_688778868828253_3082753241593536231_n](https://user-images.githubusercontent.com/96815665/162872601-c1c0d806-a99b-4606-b91c-0d04842921a8.jpg)
+  (https://user-images.githubusercontent.com/96815665/162872601-c1c0d806-a99b-4606-b91c-0d04842921a8.jpg)
 </p>
