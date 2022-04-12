@@ -56,6 +56,17 @@ cv.rectangle(img, (x,w), (y,h),(x+w,y+h), (255,255,0), 2) 	#RGB to BGR
 
 (https://user-images.githubusercontent.com/96815665/162872744-a608aed3-a1cd-4889-94fe-b800e40646a6.png)
 
+#Window at will be pop up
+cv.imshow('image', img)
+ 
+#Exit and turn off window
+ cv.waitkey(0)
+cv.destroyAllWindows()
+
+# Conclusion :
+Face detection is a type of computer technology used in various applications to accurately identify faces in images and in specific cases of face detection Its task is to find the location and all objects in a given class image and will focus on detecting human faces.
+
+
 
 
 
