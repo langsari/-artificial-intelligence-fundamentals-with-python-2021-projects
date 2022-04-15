@@ -4,19 +4,19 @@
            	Face-detection algorithms focus on the detection of frontal human faces. It is analogous to image detection in which the image of a person is matched bit by bit. Image matches with the image stores in the database. 
 # Before     
 <p align="center">
-  (https://user-images.githubusercontent.com/96815665/162872601-c1c0d806-a99b-4606-b91c-0d04842921a8.jpg)
+  https://user-images.githubusercontent.com/96815665/162872601-c1c0d806-a99b-4606-b91c-0d04842921a8.jpg
 </p>
 
 # After
 <p align="center">
-(https://user-images.githubusercontent.com/96815665/162872744-a608aed3-a1cd-4889-94fe-b800e40646a6.png)
+https://user-images.githubusercontent.com/96815665/162872744-a608aed3-a1cd-4889-94fe-b800e40646a6.png
  </p>
  
 # How face detection works : 
         Face detection applications use algorithms and ML to find human faces within larger images, which often incorporate other non-face objects such as landscapes, buildings and other human body parts like feet or hands. Face detection algorithms typically start by searching for human eyes -- one of the easiest features to detect. The algorithm might then attempt to detect eyebrows, the mouth, nose, nostrils and the iris. Once the algorithm concludes that it has found a facial region, it applies additional tests to confirm that it has, in fact, detected a face.
         
  # Design Solution : 
- (https://user-images.githubusercontent.com/96815665/162873171-6245372c-82fd-4b03-b802-fb20b4c70ee8.png)
+ https://user-images.githubusercontent.com/96815665/162873171-6245372c-82fd-4b03-b802-fb20b4c70ee8.png
  
   # Problem Statement :
            	Many parts of a certain image may not contain the useful information we need, so the goal of face detection is to display an image that can be identified as human faces and can be analyzed more easily. 
@@ -54,7 +54,7 @@ for (x,y,w,h) in faces:
 #Draw a square like in the beginning.
 cv.rectangle(img, (x,w), (y,h),(x+w,y+h), (255,255,0), 2) 	#RGB to BGR
 
-(https://user-images.githubusercontent.com/96815665/162872744-a608aed3-a1cd-4889-94fe-b800e40646a6.png)
+https://user-images.githubusercontent.com/96815665/162872744-a608aed3-a1cd-4889-94fe-b800e40646a6.png
 
 #Window at will be pop up
 cv.imshow('image', img)
